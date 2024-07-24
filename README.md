@@ -1,0 +1,2 @@
+# contracts
+Game smart contracts
