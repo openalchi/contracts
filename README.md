@@ -1,10 +1,52 @@
-# contracts
-Game smart contracts
-Hekla testnet
 
-DeploymentModule#ALCHI - 0x9610980ca879d4F69DB08E40C25D60173f2e646a
-DeploymentModule#AlchemyGame - 0x65C58f70db606eDd0d209F181Bb9fCcAdCcCAF1D
-DeploymentModule#AlchemyGameHelper - 0xF16D9769cFC33554529c217Bb962248C3A834Cc9
-DeploymentModule#NFTStake - 0xB576610d802d1a8844bea8246D9B2C48C0c36B73
-DeploymentModule#NFTStakeHelper - 0x1Ce4c74e3982A3a3343aA3bc73bEFcF2580484dF
+# OpenALCHI Contracts
+
+Welcome to the **OpenALCHI** contracts repository. This repository contains all the smart contracts related to the OpenALCHI project, an innovative NFT game that merges the concepts of alchemy and blockchain.
+
+## Overview
+
+OpenALCHI is a decentralized game where players combine different elements to create new items, which can then be minted as NFTs. These NFTs can be traded, sold, or used within the game ecosystem. The contracts in this repository handle various aspects of the game, including element combinations, minting, and airdrops.
+
+
+## Key Contracts
+
+### Token.sol
+governance & reward token named ALCHI.
+
+### AlchemyGame.sol
+Handles the logic for combining different elements within the game to create new items.
+
+### NFTStake.sol
+Manages the staking process of NFTs, including the reward structure.
+
+### OpenMarketpalce.sol
+Responsible for swap & trade NFTs.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [hardhat](https://hardhat.org/)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/openalchi/contracts.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd contracts
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+
+## Contributing
+
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+
 
