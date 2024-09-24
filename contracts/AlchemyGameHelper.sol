@@ -5,7 +5,7 @@ import "./AlchemyGame.sol";
 
 contract AlchemyGameHelper {
     AlchemyGame public game;
-    uint256 public constant MAX_ELEMENT_ID = 23;
+    uint256 public constant MAX_ELEMENT_ID = 46;
     
     constructor(address _gameAddress) {
         game = AlchemyGame(_gameAddress);
